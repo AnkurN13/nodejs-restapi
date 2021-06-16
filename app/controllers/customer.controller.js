@@ -24,7 +24,7 @@ var customers = {
         id: 4
     }
 }
-
+//test 
 exports.create = function(req, res) {
 var newCustomer = req.body;
 customers["customer" + newCustomer.id] = newCustomer;
